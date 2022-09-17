@@ -13,7 +13,7 @@ int main()
 
   printf("Fibonacci Series: %d, %d, ", t1, t2);
 
-  for (i = 3; i <= n; ++i)
+  for (i = 3; i < n; ++i)
   {
     printf("%d, ", nxtTerm);
     t1 = t2;
